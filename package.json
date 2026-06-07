@@ -1,0 +1,13 @@
+{
+  "name": "zebate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Zebate — a local, multi-window research workspace by ZedStack, driven by your own Claude Code session. No API key.",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "dev": "node src/server.mjs"
+  },
+  "bin": { "zebate": "src/server.mjs" },
+  "license": "Apache-2.0"
+}
